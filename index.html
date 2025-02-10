@@ -22,6 +22,7 @@
                     colors: {
                         primary: '#FFDC26',
                         secondary: '#FFF9F4',
+                        text_color: '#111111'
                     },
                     fontFamily: {
                         sora: ['Sora', 'sans-serif'],
@@ -36,14 +37,14 @@
 
 <body class="font-sora">
     <!-- Header Section -->
-    <header class="bg-secondary">
+    <header class="bg-secondary border-b-2 border-slate-500 md:border-none">
         <!-- Navbar Section -->
         <nav class="container mx-auto">
             <div class="navbar">
                 <div class="navbar-start">
                     <div class="flex justify-center items-center space-x-4">
                         <img src="./assets/logo-header.png" alt="">
-                        <a class="font-semibold hidden md:flex" href="#">Browse<span
+                        <a class="font-semibold text-xl hidden md:flex" href="#">Browse<span
                                 class="text-primary">4</span>Pets</a>
                     </div>
                 </div>
@@ -100,9 +101,19 @@
     <!-- Main Section -->
     <main>
         <!-- Hero Section -->
-        <section>
-            <h2>Pamper Your Pet,<br>
-                Because They Deserve the Best</h2>
+        <section class="">
+            <div class="container mx-auto px-4 space-y-2 md:space-y-4 relative">
+                <h2 class="font-custom text-2xl mt-5 md:mt-16 md:text-3xl lg:text-6xl">Pamper Your Pet,<br>
+                    Because They Deserve <br>
+                    the Best</h2>
+                <p class="text-text_color text-xs lg:text-xl md:w-1/2">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop and make
+                    tails
+                    wag with joy!</p>
+                <button class="btn border-primary bg-primary hover:bg-transparent hover:border-primary min-h-8 h-8">Find
+                    a
+                    pet</button>
+                <img class="absolute top-28 md:-top-10 lg:-top-16 -z-10" src="./assets/cat-big.png" alt="">
+            </div>
         </section>
     </main>
     <!-- Footer Section -->
