@@ -100,14 +100,15 @@
         </nav>
     </header>
     <!-- Main Section -->
-    <main class="container mx-auto px-4 ">
+    <main>
         <!-- Hero Section -->
-        <section>
+        <section class="container mx-auto px-4">
             <div class="space-y-2 md:space-y-4 relative">
                 <h2 class="font-custom text-2xl mt-5 md:mt-16 md:text-3xl lg:text-6xl">Pamper Your Pet,<br>
                     Because They Deserve <br>
                     the Best</h2>
-                <p class="text-text_color text-xs lg:text-xl md:w-1/2">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop and make
+                <p class="text-text_color text-xs lg:text-xl md:w-1/2">Discover a world of treats, toys, and essentials
+                    handpicked for your furry friends. Shop and make
                     tails
                     wag with joy!</p>
                 <button class="btn border-primary bg-primary hover:bg-transparent hover:border-primary min-h-8 h-8">Find
@@ -118,47 +119,236 @@
         </section>
 
         <!-- Category Section -->
-         <section class="relative top-32 md:top-96 lg:mt-10">
+        <section class="container mx-auto px-4 relative top-32 md:top-96 lg:mt-10">
             <h3 class="font-custom text-xl md:text-2xl lg:text-3xl mb-8">Browse By Categories</h3>
             <div class="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4 lg:grid-cols-6 lg:gap-6">
                 <!-- card 1 -->
-                 <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
+                <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
                     <img class="bg-white rounded-full border-[24px] border-white" src="./assets/dog-cartoon.png" alt="">
                     <h3 class="font-custom text-2xl">Dog</h3>
                     <p>3 items</p>
-                 </div>
+                </div>
                 <!-- card 2 -->
-                 <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
-                    <img class="bg-white rounded-full border-[24px] border-white" src="./assets/fish-cartoon.png" alt="">
+                <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
+                    <img class="bg-white rounded-full border-[24px] border-white" src="./assets/fish-cartoon.png"
+                        alt="">
                     <h3 class="font-custom text-2xl">Fish</h3>
                     <p>2 items</p>
-                 </div>
+                </div>
                 <!-- card 3 -->
-                 <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
+                <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
                     <img class="bg-white rounded-full border-[24px] border-white" src="./assets/cat-cartoon.png" alt="">
                     <h3 class="font-custom text-2xl">Cat</h3>
                     <p>4 items</p>
-                 </div>
+                </div>
                 <!-- card 4 -->
-                 <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
-                    <img class="bg-white rounded-full border-[24px] border-white" src="./assets/bird-cartoon.png" alt="">
+                <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
+                    <img class="bg-white rounded-full border-[24px] border-white" src="./assets/bird-cartoon.png"
+                        alt="">
                     <h3 class="font-custom text-2xl">Birds</h3>
                     <p>5 items</p>
-                 </div>
+                </div>
                 <!-- card 5 -->
-                 <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
-                    <img class="bg-white rounded-full border-[24px] border-white" src="./assets/mouse-cartoon.png" alt="">
+                <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
+                    <img class="bg-white rounded-full border-[24px] border-white" src="./assets/mouse-cartoon.png"
+                        alt="">
                     <h3 class="font-custom text-2xl">Small Pet</h3>
                     <p>4 items</p>
-                 </div>
+                </div>
                 <!-- card 6 -->
-                 <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
-                    <img class="bg-white rounded-full border-[24px] border-white" src="./assets/rabbit-cartoon.png" alt="">
+                <div class="bg-card_color rounded-xl p-8 flex flex-col items-center space-y-3">
+                    <img class="bg-white rounded-full border-[24px] border-white" src="./assets/rabbit-cartoon.png"
+                        alt="">
                     <h3 class="font-custom text-2xl">Rabbit</h3>
                     <p>2 items</p>
-                 </div>
+                </div>
             </div>
-         </section>
+        </section>
+
+        <!-- Trending Products Section -->
+        <section class="bg-secondary relative top-32 md:top-96 lg:mt-10">
+            <div class="container mx-auto px-4 py-20">
+                <h3 class="font-custom text-xl md:text-2xl lg:text-3xl mb-8">Trending Pet Products</h3>
+                <div class="grid lg:grid-cols-3 lg:gap-4">
+                    <!-- Left Card -->
+                    <div class="bg-card_color rounded-md relative lg:col-span-1">
+                        <div class="space-y-4 px-8 pt-10 pb-20">
+                            <h4 class="font-custom text-xl md:text-2xl">T-Shirt for Dogs</h4>
+                            <p class="text-lg">Discover a world of treats, toys, and essentials
+                                handpicked for</p>
+                            <button class="btn bg-white hover:border-primary min-h-8 h-8">Shop Now</button>
+                        </div>
+                        <img class="w-28 absolute bottom-1 right-0" src="./assets/cute-pet-small.png" alt="">
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-3 lg:col-span-2">
+                        <!-- Small Product Card 1 -->
+                        <div class="flex justify-start gap-2 md:gap-4 bg-white border rounded-md p-2 md:p-4">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-red-100 rounded-md flex justify-center items-center">
+                                <img src="./assets/dog-cartoon.png" alt="">
+                            </div>
+                            <div>
+                                <div class="rating gap-2">
+                                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 15.27L16.18 18l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 3.73L3.82 18z" />
+                                    </svg>
+                                    <p class="text-sm md:text-base">4.5</p>
+                                </div>
+                                <h4 class="font-semibold text-sm md:text-lg">Pet Dog</h4>
+                                <p class="text-sm md:text-base">$39.99</p>
+                            </div>
+                        </div>
+                        <!-- Small Product Card 2 -->
+                        <div class="flex justify-start gap-2 md:gap-4 bg-white border rounded-md p-2 md:p-4">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-red-100 rounded-md flex justify-center items-center">
+                                <img src="./assets/fish-cartoon.png" alt="">
+                            </div>
+                            <div>
+                                <div class="rating gap-2">
+                                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 15.27L16.18 18l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 3.73L3.82 18z" />
+                                    </svg>
+                                    <p class="text-sm md:text-base">4.3</p>
+                                </div>
+                                <h4 class="font-semibold text-sm md:text-lg">Pet Fish</h4>
+                                <p class="text-sm md:text-base">$29.99</p>
+                            </div>
+                        </div>
+                        <!-- Small Product Card 3 -->
+                        <div class="flex justify-start gap-2 md:gap-4 bg-white border rounded-md p-2 md:p-4">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-red-100 rounded-md flex justify-center items-center">
+                                <img src="./assets/bird-cartoon.png" alt="">
+                            </div>
+                            <div>
+                                <div class="rating gap-2">
+                                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 15.27L16.18 18l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 3.73L3.82 18z" />
+                                    </svg>
+                                    <p class="text-sm md:text-base">4.2</p>
+                                </div>
+                                <h4 class="font-semibold text-sm md:text-lg">Pet Bird</h4>
+                                <p class="text-sm md:text-base">$49.99</p>
+                            </div>
+                        </div>
+                        <!-- Small Product Card 4 -->
+                        <div class="flex justify-start gap-2 md:gap-4 bg-white border rounded-md p-2 md:p-4">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-red-100 rounded-md flex justify-center items-center">
+                                <img src="./assets/rabbit-cartoon.png" alt="">
+                            </div>
+                            <div>
+                                <div class="rating gap-2">
+                                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 15.27L16.18 18l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 3.73L3.82 18z" />
+                                    </svg>
+                                    <p class="text-sm md:text-base">4.7</p>
+                                </div>
+                                <h4 class="font-semibold text-sm md:text-lg">Rabbit</h4>
+                                <p class="text-sm md:text-base">$99.99</p>
+                            </div>
+                        </div>
+                        <!-- Small Product Card 5 -->
+                        <div class="flex justify-start gap-2 md:gap-4 bg-white border rounded-md p-2 md:p-4">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-red-100 rounded-md flex justify-center items-center">
+                                <img src="./assets/pet-couch.png" alt="">
+                            </div>
+                            <div>
+                                <div class="rating gap-2">
+                                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 15.27L16.18 18l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 3.73L3.82 18z" />
+                                    </svg>
+                                    <p class="text-sm md:text-base">4.5</p>
+                                </div>
+                                <h4 class="font-semibold text-sm md:text-lg">Pet Bed</h4>
+                                <p class="text-sm md:text-base">$37.99</p>
+                            </div>
+                        </div>
+                        <!-- Small Product Card 6 -->
+                        <div class="flex justify-start gap-2 md:gap-4 bg-white border rounded-md p-2 md:p-4">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-red-100 rounded-md flex justify-center items-center">
+                                <img src="./assets/fish-cartoon.png" alt="">
+                            </div>
+                            <div>
+                                <div class="rating gap-2">
+                                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 15.27L16.18 18l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 3.73L3.82 18z" />
+                                    </svg>
+                                    <p class="text-sm md:text-base">4.5</p>
+                                </div>
+                                <h4 class="font-semibold text-sm md:text-lg">Fish</h4>
+                                <p class="text-sm md:text-base">$99.99</p>
+                            </div>
+                        </div>
+                        <!-- Small Product Card 7 -->
+                        <div class="flex justify-start gap-2 md:gap-4 bg-white border rounded-md p-2 md:p-4">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-red-100 rounded-md flex justify-center items-center">
+                                <img src="./assets/bird-cartoon.png" alt="">
+                            </div>
+                            <div>
+                                <div class="rating gap-2">
+                                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 15.27L16.18 18l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 3.73L3.82 18z" />
+                                    </svg>
+                                    <p class="text-sm md:text-base">4.5</p>
+                                </div>
+                                <h4 class="font-semibold text-sm md:text-lg">Bird</h4>
+                                <p class="text-sm md:text-base">$29.99</p>
+                            </div>
+                        </div>
+                        <!-- Small Product Card 8 -->
+                        <div class="flex justify-start gap-2 md:gap-4 bg-white border rounded-md p-2 md:p-4">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-red-100 rounded-md flex justify-center items-center">
+                                <img src="./assets/dog-cartoon.png" alt="">
+                            </div>
+                            <div>
+                                <div class="rating gap-2">
+                                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 15.27L16.18 18l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 3.73L3.82 18z" />
+                                    </svg>
+                                    <p class="text-sm md:text-base">4.5</p>
+                                </div>
+                                <h4 class="font-semibold text-sm md:text-lg">Dog</h4>
+                                <p class="text-sm md:text-base">$39.99</p>
+                            </div>
+                        </div>
+                        <!-- Small Product Card 9 -->
+                        <div class="hidden md:flex justify-start gap-2 md:gap-4 bg-white border rounded-md p-2 md:p-4">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-red-100 rounded-md flex justify-center items-center">
+                                <img src="./assets/rabbit-cartoon.png" alt="">
+                            </div>
+                            <div>
+                                <div class="rating gap-2">
+                                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 15.27L16.18 18l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 3.73L3.82 18z" />
+                                    </svg>
+                                    <p class="text-sm md:text-base">4.5</p>
+                                </div>
+                                <h4 class="font-semibold text-sm md:text-lg">Rabbit</h4>
+                                <p class="text-sm md:text-base">$49.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
     <!-- Footer Section -->
     <footer>
